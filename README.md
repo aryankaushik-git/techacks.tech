@@ -1,1 +1,1 @@
-# techacks website repository
+# Techacks 3.0 website repository
