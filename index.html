@@ -468,7 +468,7 @@
 					<div class="section-num">
 						<span>|6</span>
 					</div>
-					<h2 class="entry-title">FAQ</h2>
+					<h2 class="entry-title" style="font-size:90px;">FAQ</h2>
 				</div>
 				<div class="section-content-holder left">
 					<div class="content-wrapper">
@@ -704,5 +704,10 @@
 		<script>
 			AOS.init();
 		</script>
+		<script>if (jQuery(window).scrollTop() === 0)
+			jQuery(".menu-wrapper, .menu-wrapper .sub-menu").css(
+				"backgroundColor",
+				"black"
+			);</script>
 	</body>
 </html>
